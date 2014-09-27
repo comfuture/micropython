@@ -27,7 +27,7 @@ DFU=../tools/dfu.py
 DFU_UTIL ?= dfu-util
 DEVICE=0483:df11
 
-CROSS_COMPILE = arm-none-eabi-
+CROSS_COMPILE ?= arm-none-eabi-
 
 INC =  -I.
 INC += -I$(PY_SRC)
